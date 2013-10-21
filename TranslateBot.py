@@ -13,7 +13,7 @@ runTestMessage = True
 
 r = praw.Reddit(user_agent='multifunctionbot')
 print("logging in")
-r.login('multifunctionbot', 'ZeroZero00')
+r.login()
 print("logged in")
 
 lastTime = 0
